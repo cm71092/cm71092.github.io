@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="这是我的首篇文章摘要">
-<title>第一篇文章</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="简单记录一下做博客的体会">
+<title>成功部署完网站的喜悦</title>
 
-<link rel='canonical' href='https://cm71092.github.io/post/first-blog/'>
+<link rel='canonical' href='https://cm71092.github.io/post/blog-1/'>
 
-<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="第一篇文章">
-<meta property='og:description' content="这是我的首篇文章摘要">
-<meta property='og:url' content='https://cm71092.github.io/post/first-blog/'>
+<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="成功部署完网站的喜悦">
+<meta property='og:description' content="简单记录一下做博客的体会">
+<meta property='og:url' content='https://cm71092.github.io/post/blog-1/'>
 <meta property='og:site_name' content='老二刺螈的博客小站'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Hugo' /><meta property='article:tag' content='Stack' /><meta property='article:published_time' content='2025-03-06T15:52:58&#43;08:00'/><meta property='article:modified_time' content='2025-03-06T15:52:58&#43;08:00'/>
-<meta name="twitter:title" content="第一篇文章">
-<meta name="twitter:description" content="这是我的首篇文章摘要">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='生活记录' /><meta property='article:tag' content='感想' /><meta property='article:published_time' content='2025-03-06T15:52:58&#43;08:00'/><meta property='article:modified_time' content='2025-03-06T15:52:58&#43;08:00'/>
+<meta name="twitter:title" content="成功部署完网站的喜悦">
+<meta name="twitter:description" content="简单记录一下做博客的体会">
     </head>
     <body class="
     article-page
@@ -261,8 +261,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E6%8A%80%E6%9C%AF/" style="background-color: #2a9d8f; color: #fff;">
-                技术
+            <a href="/categories/%E7%94%9F%E6%B4%BB/" >
+                生活
             </a>
         
     </header>
@@ -270,7 +270,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/first-blog/">第一篇文章</a>
+            <a href="/post/blog-1/">成功部署完网站的喜悦</a>
         </h2>
     
         
@@ -307,7 +307,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -322,18 +322,294 @@
     <section class="article-content">
     
     
-    <p><img src="/images/cover.png"
-	
-	
-	
+    <p><img src="/post/blog-1/cover.png"
+	width="682"
+	height="276"
+	srcset="/post/blog-1/cover_hu_26c177b6b87cce0b.png 480w, /post/blog-1/cover_hu_fdad055684ecc452.png 1024w"
 	loading="lazy"
 	
 		alt="封面图"
 	
 	
+		class="gallery-image" 
+		data-flex-grow="247"
+		data-flex-basis="593px"
+	
 ></p>
-<h2 id="欢迎来到我的网站">欢迎来到我的网站！
-</h2><p>这是我的第一篇博客&hellip;</p>
+<h2 id="我终于能点开自己的博客啦">我终于能点开自己的博客啦！
+</h2><blockquote>
+<p><del>在失败了数十次之后</del>，我终于成功点开自己的博客啦！！</p></blockquote>
+<p>我基本上是跟着ds来做的，但是中途就转战stack主题官方帮助文档和gpt了，体感下来ds能够辅助完成一些<strong>大方向</strong>的工作，比如提供建立一个博客的方案，但是具体到每一步怎么做的时候，ds就会出错，我在前几次跟着ds走的时候，基本上步骤就是缺斤少两的，所以怎么也打不开自己的网站的😭</p>
+<p>后来我先是去网上搜了下别人是怎么用ds给的方案做博客的，又是给gpt发我的错误日志报告，最后终于成功建立了现在这个博客！一开始本地服务器一切显示正常，我准备push到我的github仓库的时候还有点紧张，害怕报错，不过我push的过程非常顺利，等待了一两分钟，就可以在同一个局域网里通过网站链接访问我的博客啦~🥰</p>
+<h2 id="一点心得体会">一点心得体会
+</h2><p>首先放上我的config.toml文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">theme = &#34;hugo-theme-stack&#34;
+</span></span><span class="line"><span class="cl">baseURL = &#34;https://cm71092.github.io/&#34;
+</span></span><span class="line"><span class="cl">languageCode = &#34;zh-cn&#34;
+</span></span><span class="line"><span class="cl">hasCJKLanguage = true
+</span></span><span class="line"><span class="cl">title = &#34;老二刺螈的博客小站&#34;
+</span></span><span class="line"><span class="cl">DefaultContentLanguage = &#34;zh-cn&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[pagination]
+</span></span><span class="line"><span class="cl">pagerSize = 5
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[params]
+</span></span><span class="line"><span class="cl">  description = &#34;这是我的网站&#34;
+</span></span><span class="line"><span class="cl">  defaultDark = false  # 日间模式为默认
+</span></span><span class="line"><span class="cl">  mainSections = [&#34;post&#34;]
+</span></span><span class="line"><span class="cl">  favicon = &#34;favicon.ico&#34;
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  [params.footer]
+</span></span><span class="line"><span class="cl">  since = 2025   
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [params.dateFormat]            # 🌟日期格式
+</span></span><span class="line"><span class="cl">  published = &#34;Jan 02, 2006&#34;     # 发布日期格式（Go时间格式）
+</span></span><span class="line"><span class="cl">  lastUpdated = &#34;Jan 02, 2006 15:04 MST&#34;  # 最后更新格式              
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [Params.Sidebar]
+</span></span><span class="line"><span class="cl">    subtitle = &#34;暨大光电研究牲，二刺螈爱好者&#34;
+</span></span><span class="line"><span class="cl">    emoji = &#34;🥰&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    [params.sidebar.avatar]
+</span></span><span class="line"><span class="cl">      enabled = true
+</span></span><span class="line"><span class="cl">      src = &#34;img/avatar.png&#34;  
+</span></span><span class="line"><span class="cl">      local = true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[[params.widgets.homepage]]      # 首页小部件列表
+</span></span><span class="line"><span class="cl">type = &#34;search&#34;                  # 搜索框
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[[params.widgets.homepage]]
+</span></span><span class="line"><span class="cl">type = &#34;archives&#34;                # 归档列表
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [params.widgets.homepage.params]
+</span></span><span class="line"><span class="cl">  limit = 5                      # 显示5条最新归档
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[[params.widgets.homepage]]
+</span></span><span class="line"><span class="cl">type = &#34;categories&#34;              # 分类云
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [params.widgets.homepage.params]
+</span></span><span class="line"><span class="cl">  limit = 10                     # 显示前10个分类
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[[params.widgets.homepage]]
+</span></span><span class="line"><span class="cl">type = &#34;tag-cloud&#34;               # 标签云
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [params.widgets.homepage.params]
+</span></span><span class="line"><span class="cl">  limit = 10
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[[params.widgets.page]]
+</span></span><span class="line"><span class="cl">type = &#34;toc&#34; 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[taxonomies]
+</span></span><span class="line"><span class="cl">  category = &#34;categories&#34;
+</span></span><span class="line"><span class="cl">  tag = &#34;tags&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[menu]
+</span></span><span class="line"><span class="cl">main = [ ]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [[menu.social]]
+</span></span><span class="line"><span class="cl">  identifier = &#34;github&#34;
+</span></span><span class="line"><span class="cl">  name = &#34;GitHub&#34;
+</span></span><span class="line"><span class="cl">  url = &#34;https://github.com/cm71092&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    [menu.social.params]
+</span></span><span class="line"><span class="cl">    icon = &#34;brand-github&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [[menu.social]]
+</span></span><span class="line"><span class="cl">  identifier = &#34;bilibili&#34;
+</span></span><span class="line"><span class="cl">  name = &#34;Bilibili&#34;
+</span></span><span class="line"><span class="cl">  url = &#34;https://space.bilibili.com/13107588&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    [menu.social.params]
+</span></span><span class="line"><span class="cl">    icon = &#34;bilibili&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [[menu.social]]
+</span></span><span class="line"><span class="cl">  identifier = &#34;知乎&#34;
+</span></span><span class="line"><span class="cl">  name = &#34;知乎&#34;
+</span></span><span class="line"><span class="cl">  url = &#34;https://www.zhihu.com/people/tao-zi-98-90-73&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    [menu.social.params]
+</span></span><span class="line"><span class="cl">    icon = &#34;zhihu&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[related]
+</span></span><span class="line"><span class="cl">includeNewer = true
+</span></span><span class="line"><span class="cl">threshold = 60
+</span></span><span class="line"><span class="cl">toLower = false
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [[related.indices]]
+</span></span><span class="line"><span class="cl">  name = &#34;tags&#34;
+</span></span><span class="line"><span class="cl">  weight = 100
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [[related.indices]]
+</span></span><span class="line"><span class="cl">  name = &#34;categories&#34;
+</span></span><span class="line"><span class="cl">  weight = 200
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[markup.goldmark.extensions.passthrough]
+</span></span><span class="line"><span class="cl">enable = true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  [markup.goldmark.extensions.passthrough.delimiters]
+</span></span><span class="line"><span class="cl">  block = [ [ &#34;\\[&#34;, &#34;\\]&#34; ], [ &#34;$$&#34;, &#34;$$&#34; ] ]
+</span></span><span class="line"><span class="cl">  inline = [ [ &#34;\\(&#34;, &#34;\\)&#34; ] ]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[markup.goldmark.renderer]
+</span></span><span class="line"><span class="cl">unsafe = true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[markup.tableOfContents]
+</span></span><span class="line"><span class="cl">endLevel = 4
+</span></span><span class="line"><span class="cl">ordered = true
+</span></span><span class="line"><span class="cl">startLevel = 2
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[markup.highlight]
+</span></span><span class="line"><span class="cl">noClasses = false
+</span></span><span class="line"><span class="cl">codeFences = true
+</span></span><span class="line"><span class="cl">guessSyntax = true
+</span></span><span class="line"><span class="cl">lineNoStart = 1
+</span></span><span class="line"><span class="cl">lineNos = true
+</span></span><span class="line"><span class="cl">lineNumbersInTable = true
+</span></span><span class="line"><span class="cl">tabWidth = 4    
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>基本上是按照stack主题官方给的config文件来的，不过有两点需要注意：</p>
+<ul>
+<li>新版hugo把config文件名字修改为了hugo</li>
+<li>大部分主题的高版本只支持.toml后缀的config文件</li>
+</ul>
+<blockquote>
+<p>其实意思就是要把主题官方给的config.yaml文件转成hugo.toml</p></blockquote>
+<p>说实话这两个问题真的困扰了我很久！我前几次尝试失败基本都是因为这两个问题，解决了这些之后我的博客创建非常简单，只需要根据示例文件里的格式按自己想法增减各个组件就行了。</p>
+<p>还有个问题也是有点整蛊，就是hugo这个服务器老是乱缓存东西😡，有时候我明明修改了东西，但是就是刷新不出来，搞得我又是问ds又是问gpt，乱改了一通东西破大防。<del>结果第二天重新打开服务器自己就加载出来了</del></p>
 
 </section>
 
@@ -342,9 +618,9 @@
     
     <section class="article-tags">
         
-            <a href="/tags/hugo/">Hugo</a>
+            <a href="/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a>
         
-            <a href="/tags/stack/">Stack</a>
+            <a href="/tags/%E6%84%9F%E6%83%B3/">感想</a>
         
     </section>
 

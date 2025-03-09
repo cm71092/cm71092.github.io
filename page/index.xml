@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 老二刺螈的博客小站</title>
-        <link>http://localhost:1313/page/</link>
+        <link>https://cm71092.github.io/page/</link>
         <description>Recent content in Pages on 老二刺螈的博客小站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cm71092.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>http://localhost:1313/page/archives/</link>
+        <link>https://cm71092.github.io/page/archives/</link>
         <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/page/archives/</guid>
+        <guid>https://cm71092.github.io/page/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/page/about/</link>
+        <link>https://cm71092.github.io/page/about/</link>
         <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/page/about/</guid>
+        <guid>https://cm71092.github.io/page/about/</guid>
         <description>&lt;p&gt;暨大光电研究牲，平时负责给导师打杂，喜欢看动漫，平时会在博客分享日常生活和学习记录&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -39,18 +39,18 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/page/search/</link>
+        <link>https://cm71092.github.io/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/page/search/</guid>
+        <guid>https://cm71092.github.io/page/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友情链接</title>
-        <link>http://localhost:1313/page/links/</link>
+        <link>https://cm71092.github.io/page/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/page/links/</guid>
+        <guid>https://cm71092.github.io/page/links/</guid>
         <description>&lt;p&gt;以下是友情链接~&lt;/p&gt;
 </description>
         </item>
