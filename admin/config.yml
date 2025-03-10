@@ -16,6 +16,8 @@ collections:
     label: "文章"
     folder: "content/posts"  # 内容存储位置
     create: true     # 允许新建文章
+    editor:
+      preview: false  # 关闭 Markdown 预览，防止样式干扰
     fields:          # 定义编辑字段
       - { label: "标题", name: "title", widget: "string" }
       - { label: "正文", name: "body", widget: "markdown" }

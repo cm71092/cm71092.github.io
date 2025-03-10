@@ -1,31 +1,19 @@
-<!doctype html>
-<html lang="zh" dir="ltr">
+<!DOCTYPE html>
+<html dir="ltr">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
   <style>
-    /* 强制所有元素文本方向为左对齐 */
-    body {
-      direction: ltr !important;
-      text-align: left !important;
-    }
-    
-    /* 修复编辑器输入框 */
-    .CMS_Editor {
-      direction: ltr !important;
-    }
+    body { direction: ltr !important; }
   </style>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 </head>
 <body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^3.0.0/dist/netlify-cms.js"></script>
+  <script>
+    // 强制初始化LTR方向
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.setAttribute('dir', 'ltr');
+    });
+  </script>
 </body>
 </html>
-
-
----
-title: My homepage
-date: 2020-04-24T10:48:46.000Z
----
-User-editable homepage content, easily managed with Netlify CMS
