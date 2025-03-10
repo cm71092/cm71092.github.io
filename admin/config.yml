@@ -1,3 +1,9 @@
+# 强制界面语言为英语（LTR）
+i18n:
+  structure: ltr
+  locales: [en]
+  default_locale: en
+
 backend:
   name: git-gateway  # 使用 Netlify 的 Git 网关
   branch: main       # 托管在 GitHub 的默认分支
