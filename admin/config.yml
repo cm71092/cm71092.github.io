@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway  # 使用 Netlify 的 Git 网关
+  branch: main       # 托管在 GitHub 的默认分支
+
+media_folder: "static/uploads"  # 上传文件保存路径
+public_folder: "/uploads"       # 网站访问路径
+
+collections:
+  - name: "posts"    # 对应 Hugo 的 content/posts
+    label: "文章"
+    folder: "content/posts"  # 内容存储位置
+    create: true     # 允许新建文章
+    fields:          # 定义编辑字段
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "发布日期", name: "date", widget: "datetime" }
+      - { label: "封面图", name: "image", widget: "image" }
