@@ -37,7 +37,7 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -88,7 +88,7 @@
             
                 <li>
                     <a 
-                        href='https://github.com/cm71092'
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
                         target="_blank"
                         title="GitHub"
                         rel="me"
@@ -145,7 +145,7 @@
         
         
         <li >
-            <a href='/page/about/' >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
                 
                 
                 
@@ -164,7 +164,7 @@
         
         
         <li >
-            <a href='/page/archives/' >
+            <a href='/archives/' >
                 
                 
                 
@@ -184,7 +184,7 @@
         
         
         <li >
-            <a href='/page/search/' >
+            <a href='/search/' >
                 
                 
                 
@@ -203,7 +203,7 @@
         
         
         <li >
-            <a href='/page/links/' >
+            <a href='/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/' >
                 
                 
                 
@@ -249,7 +249,129 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                <form action="/search/" class="search-form widget" >
+        <p>
+            <label>搜索</label>
+            <input name="keyword" required placeholder="输入关键词..." />
+        
+            <button title="搜索">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
+                <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">归档</h2>
+
+        
+        
+        
+        
+        
+        <div class="widget-archive--list">
+            <div class="archives-year">
+                    <a href="/archives/#2025">
+                        
+                            <span class="year">2025</span>
+                            <span class="count">3</span>
+                        
+                    </a> 
+                </div>
+            
+        </div>
+    </section>
+            
+        
+            
+                <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">分类</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="font_size_2">
+                技术
+            </a>
+        
+            <a href="/categories/%E7%94%9F%E6%B4%BB/" class="font_size_1">
+                生活
+            </a>
+        
+    </div>
+</section>
+
+            
+        
+            
+                <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">标签云</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tags/%E6%84%9F%E6%83%B3/" class="font_size_2">
+                感想
+            </a>
+        
+            <a href="/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" class="font_size_2">
+                生活记录
+            </a>
+        
+            <a href="/tags/hugo/" class="font_size_1">
+                Hugo
+            </a>
+        
+            <a href="/tags/stack/" class="font_size_1">
+                Stack
+            </a>
+        
+    </div>
+</section>
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <header>
@@ -271,7 +393,7 @@
     <section class="article-list--compact">
         
             <article>
-    <a href="/post/first-blog/">
+    <a href="/p/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
         <div class="article-details">
             <h2 class="article-title">第一篇文章</h2>
             <footer class="article-time">
@@ -279,7 +401,7 @@
             </footer>
         </div>
             <div class="article-image">
-                <img src="/post/first-blog/cover_hu_aa8f803310293767.png" 
+                <img src="/p/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/cover_hu_aa8f803310293767.png" 
                         width="120"
                         height="120" 
                         alt="第一篇文章"
@@ -295,7 +417,7 @@
     <section class="copyright">
         &copy; 
         
-        2025 老二刺螈的博客小站
+        2025 chenmin
     </section>
     
     <section class="powerby">

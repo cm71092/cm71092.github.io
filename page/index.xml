@@ -6,20 +6,21 @@
         <description>Recent content in Pages on 老二刺螈的博客小站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
+        <copyright>chenmin</copyright>
         <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cm71092.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://cm71092.github.io/page/archives/</link>
+        <link>https://cm71092.github.io/archives/</link>
         <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://cm71092.github.io/page/archives/</guid>
+        <guid>https://cm71092.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://cm71092.github.io/page/about/</link>
+        <link>https://cm71092.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://cm71092.github.io/page/about/</guid>
+        <guid>https://cm71092.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;暨大光电研究牲，平时负责给导师打杂，喜欢看动漫，平时会在博客分享日常生活和学习记录&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -39,18 +40,18 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://cm71092.github.io/page/search/</link>
+        <link>https://cm71092.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://cm71092.github.io/page/search/</guid>
+        <guid>https://cm71092.github.io/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友情链接</title>
-        <link>https://cm71092.github.io/page/links/</link>
+        <link>https://cm71092.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://cm71092.github.io/page/links/</guid>
+        <guid>https://cm71092.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;以下是友情链接~&lt;/p&gt;
 </description>
         </item>
