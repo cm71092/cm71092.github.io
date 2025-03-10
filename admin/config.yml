@@ -1,9 +1,3 @@
-# 强制界面语言为英语（LTR）
-i18n:
-  structure: ltr
-  locales: [en]
-  default_locale: en
-
 backend:
   name: git-gateway  # 使用 Netlify 的 Git 网关
   branch: main       # 托管在 GitHub 的默认分支
@@ -16,8 +10,6 @@ collections:
     label: "文章"
     folder: "content/posts"  # 内容存储位置
     create: true     # 允许新建文章
-    editor:
-      preview: false  # 关闭 Markdown 预览，防止样式干扰
     fields:          # 定义编辑字段
       - { label: "标题", name: "title", widget: "string" }
       - { label: "正文", name: "body", widget: "markdown" }
