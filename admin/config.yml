@@ -12,6 +12,22 @@ collections:
     editor:
       preview: false
       visualEditing: true
+    view_filters:
+      - label: Posts With Index
+        field: title
+        pattern: 'This is post #'
+      - label: Posts Without Index
+        field: title
+        pattern: front matter post
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+      - label: Drafts
+        field: draft
     fields:
       - { label: '文件名', name: 'filename', widget: 'string'}
       - { label: '标题', name: 'title', widget: 'string', tagname: 'h1'  }
